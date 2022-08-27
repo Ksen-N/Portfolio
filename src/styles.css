@@ -45,6 +45,10 @@
     text-decoration: none;
     text-transform: capitalize;
   }
+.app-link, .contact-link, about-link{
+    padding: 20px 17px;   
+    text-transform: capitalize;
+}
   .app-link,
   .contact-link {
     background: var(--primary-color);
