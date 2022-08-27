@@ -26,9 +26,9 @@
   }
   p {
     background: var(--secondary-color);
-    padding: 20px;
     border-radius: 4px;
-    font-size: 18px;
+    padding-bottom: 20px;
+    font-size: 19px;
     line-height: 1.5;
   }
   
@@ -45,10 +45,6 @@
     text-decoration: none;
     text-transform: capitalize;
   }
-.app-link, .contact-link, about-link{
-    padding: 20px 17px;   
-    text-transform: capitalize;
-}
   .app-link,
   .contact-link {
     background: var(--primary-color);
@@ -71,10 +67,11 @@
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
-  .contact-link,
-  .about-link {
-    font-size: 19px;
-  }
+  .app-link, .contact-link, .about-link{
+    padding: 20px 17px;   
+    text-transform: capitalize;
+    font-size: 21px;
+}
   .homepage-link {
     color: var(--primary-color);
     text-align: center;
@@ -167,7 +164,7 @@
       margin-top: 25px;
       font-size: 25px;
     }
-      .app-link{
+    .app-link{
       display: block;
       text-align: center;
       margin: 0 auto;
