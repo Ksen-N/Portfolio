@@ -163,5 +163,10 @@
       margin-top: 25px;
       font-size: 25px;
     }
+      .app-link{
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
   }
   
