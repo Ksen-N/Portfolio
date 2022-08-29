@@ -3,10 +3,15 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --third-color: rgb(126, 0, 0);
+      --default-font:  'Alegreya', serif;
 }
 
 body {
   margin: 60px auto;
+  font-family: var(--default-font);
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
 }
 
 h1,
